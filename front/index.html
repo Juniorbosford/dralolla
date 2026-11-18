@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="pageTitle">Dra. Lolla - Clínica de Estética | Harmonização Glútea</title>
+    <meta name="description" content="Clínica de estética especializada em harmonização glútea. Descubra tratamentos exclusivos para realçar sua beleza natural com a Dra. Lolla.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="assets/images/logo-site.jpeg" rel="icon">
+    <link href="assets/images/foto-definitivas.png" rel="preload" as="image">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Meta Pixel Code -->
+    <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1125340862796487');
+fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1125340862796487&ev=PageView&noscript=1"
+        alt=""
+        />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FFWH8Q6N9C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FFWH8Q6N9C');
+    </script>
+    <!-- End Google tag (gtag.js) -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/images/foto-perfil.jpeg" alt="Dra. Lolla" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                <div class="logo-text">
+                    Dra. Lolla
+                    <span data-i18n="logoSubtitle">Clínica de Estética</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active" data-i18n="navHome">Home</a>
+                <a href="sobre.html" class="nav-link" data-i18n="navAbout">Sobre</a>
+                <a href="servicos.html" class="nav-link" data-i18n="navServices">Serviços</a>
+            </nav>
+
+            <div class="language-switcher">
+                <button type="button" class="lang-btn" data-lang="pt">PT</button>
+                <button type="button" class="lang-btn" data-lang="en">EN</button>
+            </div>
+            
+            <div class="menu-toggle" id="menuToggle" role="button" tabindex="0" aria-label="Abrir menu" aria-controls="navMenu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge" data-i18n="heroBadge">Especialistas em Harmonização Glútea</span>
+                <h1 class="hero-title">
+                    <span data-i18n="heroTitle">Realce sua Beleza</span>
+                    <span data-i18n="heroTitleSpan">com Elegância</span>
+                </h1>
+                <p class="hero-description" data-i18n="heroDescription">
+                    Transforme sua silhueta com tratamentos exclusivos de harmonização glútea. 
+                    Na Clínica Dra. Lolla, combinamos tecnologia de ponta com cuidado personalizado para 
+                    proporcionar resultados naturais e deslumbrantes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="servicos.html" class="btn btn-secondary">
+                        <i class="fas fa-spa"></i>
+                        <span data-i18n="heroButton">Ver Serviços</span>
+                    </a>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <div class="hero-feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <span data-i18n="feature1">Profissionais Qualificados</span>
+                    </div>
+                    <div class="hero-feature">
+                        <div class="hero-feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <span data-i18n="feature2">Atendimento Personalizado</span>
+                    </div>
+                    <div class="hero-feature">
+                        <div class="hero-feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span data-i18n="feature3">Resultados Comprovados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <h2 class="section-title" data-i18n="servicesTitle">Nossos Serviços</h2>
+            <p class="section-subtitle" data-i18n="servicesSubtitle">
+                Tratamentos exclusivos desenvolvidos para realçar sua beleza natural
+            </p>
+            
+            <div class="services-grid">
+                <!-- Service 1 - Harmonização -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3 class="service-title" data-i18n="service1Title">Harmonização</h3>
+                    <p class="service-description" data-i18n="service1Desc">
+                        Procedimentos revolucionários para proporcionar volume, 
+                        projeção e definição corporal e facial.
+                    </p>
+                    <a href="servicos.html" class="service-link">
+                        <span data-i18n="knowMore">Saiba mais</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 2 - Tratamentos Corporais -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <h3 class="service-title" data-i18n="service2Title">Tratamentos Corporais</h3>
+                    <p class="service-description" data-i18n="service2Desc">
+                        Procedimentos especializados para modelar o corpo, reduzir 
+                        medidas e melhorar a aparência da pele.
+                    </p>
+                    <a href="servicos.html" class="service-link">
+                        <span data-i18n="knowMore">Saiba mais</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 3 - Tecnologias -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-face-grin-stars"></i>
+                    </div>
+                    <h3 class="service-title" data-i18n="service3Title">Tecnologias Avançadas</h3>
+                    <p class="service-description" data-i18n="service3Desc">
+                        Equipamentos de última geração e técnicas inovadoras para 
+                        proporcionar os melhores resultados.
+                    </p>
+                    <a href="servicos.html" class="service-link">
+                        <span data-i18n="knowMore">Saiba mais</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 4 - Protocolos -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="service-title" data-i18n="service4Title">Protocolos Exclusivos</h3>
+                    <p class="service-description" data-i18n="service4Desc">
+                        Tratamentos personalizados desenvolvidos especificamente 
+                        para as necessidades únicas de cada cliente.
+                    </p>
+                    <a href="servicos.html" class="service-link">
+                        <span data-i18n="knowMore">Saiba mais</span> <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-main">
+                        <img src="assets/images/foto-principal.jpeg" alt="Dra. Lolla - Clínica de Estética">
+                    </div>
+                    <div class="about-image-accent">L</div>
+                </div>
+                
+                <div class="about-content">
+                    <span class="about-subtitle" data-i18n="aboutSubtitle">Sobre Nós</span>
+                    <h2 class="about-title" data-i18n="aboutTitle">Beleza e Bem-estar em Primeiro Lugar</h2>
+                    <p class="about-text" data-i18n="aboutText1">
+                        Na clínica Dra. Lolla, acreditamos que cada pessoa merece 
+                        sentir-se confiante em sua própria pele. Nossa equipe 
+                        altamente qualificada combina expertise técnica com um atendimento 
+                        humanizado e personalizado.
+                    </p>
+                    <p class="about-text" data-i18n="aboutText2">
+                        Especialistas em harmonização glútea, oferecemos tratamentos 
+                        inovadores e seguros, sempre utilizando produtos de alta qualidade 
+                        e técnicas minimamente invasivas para garantir resultados naturais 
+                        e satisfatórios.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle about-feature-icon"></i>
+                            <span data-i18n="aboutFeature1">Equipamentos de Última Geração</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle about-feature-icon"></i>
+                            <span data-i18n="aboutFeature2">Produtos Certificados</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle about-feature-icon"></i>
+                            <span data-i18n="aboutFeature3">Ambiente Acolhedor</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle about-feature-icon"></i>
+                            <span data-i18n="aboutFeature4">Horários Flexíveis</span>
+                        </div>
+                    </div>
+                    
+                    <a href="sobre.html" class="btn btn-primary">
+                        <i class="fas fa-user-md"></i>
+                        <span data-i18n="aboutButton">Conheça a Dra. Lolla</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-i18n="testimonialsTitle">O que Nossas Clientes Dizem</h2>
+            <p class="section-subtitle" data-i18n="testimonialsSubtitle">
+                A satisfação das nossas clientes é a nossa maior recompensa
+            </p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="testimonial1">
+                        "Eu sempre quis fazer harmonização glútea, mas tinha muito medo. 
+                        A Dra. Lolla me passou toda segurança desde a primeira consulta. 
+                        O resultado ficou natural e super bonito!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MR</div>
+                        <div class="testimonial-info">
+                            <h4>Mariana Rodrigues</h4>
+                            <span data-i18n="testimonialRole1">Harmonização Glútea</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="testimonial2">
+                        "Atendimento impecável! A clínica é linda, super limpa e aconchegante. 
+                        A Dra. Lolla é muito atenciosa e explica todo o procedimento. 
+                        Recomendo para todas as minhas amigas."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">PS</div>
+                        <div class="testimonial-info">
+                            <h4>Patrícia Santos</h4>
+                            <span data-i18n="testimonialRole2">Preenchimento Labial</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="testimonial3">
+                        "Fiz vários tratamentos na clínica e sempre amei os resultados. 
+                        Agora estou fazendo o tratamento corporal e já vejo diferença."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JL</div>
+                        <div class="testimonial-info">
+                            <h4>Juliana Lima</h4>
+                            <span data-i18n="testimonialRole3">Tratamento Corporal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">L</div>
+                        <div class="footer-logo-text">Dra. Lolla</div>
+                    </div>
+                    <p class="footer-description" data-i18n="footerDescription">
+                        Clínica de estética especializada em harmonização glútea e 
+                        procedimentos estéticos de alta qualidade. Sua beleza 
+                        e bem-estar são nossa prioridade.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/esteticadonalolla/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title" data-i18n="footerQuickLinks">Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html" data-i18n="navHome">Home</a></li>
+                        <li><a href="sobre.html" data-i18n="footerAboutUs">Sobre Nós</a></li>
+                        <li><a href="servicos.html" data-i18n="navServices">Serviços</a></li>
+                        <li><a href="agendamento.html" data-i18n="navSchedule">Agendamento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title" data-i18n="footerServices">Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html" data-i18n="service1Title">Harmonização</a></li>
+                        <li><a href="servicos.html" data-i18n="service2Title">Tratamentos Corporais</a></li>
+                        <li><a href="servicos.html" data-i18n="service3Title">Tecnologias</a></li>
+                        <li><a href="servicos.html" data-i18n="service4Title">Protocolos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title" data-i18n="footerContact">Contato</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-i18n-html="footerAddress">Rua Barão de Souza Leão, 195<br>Recife - Pernambuco</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(81) 8797-2520</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contato@dralolla.com.br</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footerCopyright">&copy; 2026 Dra. Lolla - Clínica de Estética. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/558187972520" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Botão Flutuante Instagram -->
+    <a href="https://www.instagram.com/esteticadonalolla/" class="instagram-float" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <!-- Popup Simplificado - Número ou Email -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-container">
+            <button type="button" class="popup-close" id="popupClose" aria-label="Fechar">&times;</button>
+            <div class="popup-icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <h3 class="popup-title" data-i18n="popupTitle">Entre em Contato</h3>
+            <p class="popup-subtitle" data-i18n="popupSubtitle">Deixe seu número ou email para falarmos agora</p>
+            
+            <form class="popup-form" id="popupForm">
+                <input type="text" class="popup-input" data-i18n-placeholder="popupPlaceholder" placeholder="Número ou Email" required>
+                <button type="submit" class="popup-btn" data-i18n="popupButton">Enviar</button>
+            </form>
+            
+            <div class="popup-divider">
+                <span data-i18n="popupOr">OU</span>
+            </div>
+            
+            <a href="https://wa.me/558187972520" class="popup-whatsapp" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+                <span data-i18n="popupWhatsapp">Falar no WhatsApp</span>
+            </a>
+            
+            <span class="popup-skip" id="popupSkip" data-i18n="popupCloseText">Fechar</span>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Arquivos de ambiente (nunca suba tokens pro GitHub)
+.env
+.env.*
+!.env.example
+
+# Leads e agendamentos têm dados pessoais de clientes — não versionar
+data/*
+!data/.gitkeep
+
+# Sessões de bots
+session/
+sessions/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
